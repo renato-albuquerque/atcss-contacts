@@ -7,29 +7,30 @@
 }
 
 body {
-    background-color: #A2543D;
+    background-color: #F7D1BA;
     font-family: 'Dancing Script', cursive;
 }
 
 img {
     border-radius: 50%;
+    
 }
 
 h1 {
     margin-top: 30px;
     margin-bottom: 8px;
     font-size: 36px;
-    color: #D6DCD8;
+    color: black;
 }
 
 h2 {
-    color:  #D6DCD8;
+    color: black;
     font-size: 14px;
     font-family: 'Merienda', cursive;
 }
 
 p, .developed-by {
-    color:   #D6DCD8;
+    color: black;
     font-size: 12px;
     font-family: 'Merienda', cursive;
 }
@@ -43,8 +44,8 @@ li {
 }
 
 a {
-    background-color: #557570;
-    color: bisque;
+    background-color: #D39A89;
+    color: white;
     padding: 15px;
     display: block;
     border-radius: 5px;
@@ -61,7 +62,7 @@ a:hover {
 }
 
 .developed-by:hover {
-    color:#8f9290;
+    color: black;
     
 }
 
