@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-    background-color: #7caaa3;
+    background-color: #9c7063;
 }
 
 .developed-by {
@@ -62,7 +62,8 @@ a:hover {
 }
 
 .developed-by:hover {
-    color: black;
+    color: #D39A89;
+    font-weight: bolder;
     
 }
 
