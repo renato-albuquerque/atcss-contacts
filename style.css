@@ -6,52 +6,84 @@
     list-style: none;
 }
 
+:root {
+    font-size: 62.5%;
+
+    --bg-color: #F7D1BA;
+    --h1-color: black;
+    --h2-p-color: black;
+    --bga-color: #D39A89;
+    --a-color: white;
+}
+
+.lightMode:root {
+    --bg-color: #D39A89;
+    --h1-color: white;
+    --h2-p-color: white;
+    --bga-color: #F7D1BA;
+    --a-color: black;
+}
+
+button.iconTurnsColor svg path {            
+    fill: white;
+}
+
 body {
-    background-color: #F7D1BA;
+    background-color: var(--bg-color);
     font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    width: 32rem;
+    text-align: center;
+    margin: 3rem auto;
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; */
 }
 
 img {
     border-radius: 50%;
-    border: 4px solid #D39A89;
-    
+    border: 4px solid var(--bga-color);   
 }
 
 h1 {
-    margin-top: 30px;
-    margin-bottom: 8px;
-    font-size: 36px;
-    color: black;
+    color: var(--h1-color);
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+    font-size: 3.6rem;
 }
 
 h2 {
-    color: black;
-    font-size: 14px;
+    color: var(--h2-p-color);
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
     font-family: 'Merienda', cursive;
 }
 
 p, .developed-by {
-    color: black;
-    font-size: 12px;
+    color: var(--h2-p-color);
+    font-size: 1.2rem;
     font-family: 'Merienda', cursive;
 }
 
 ul {
-    margin-top: 30px;  
+    margin-top: 3rem;  
 }
 
 li {
-    margin-bottom: 18px;
+    margin-bottom: 1.8rem;
 }
 
 a {
-    background-color: #D39A89;
-    color: white;
-    padding: 15px;
+    background-color: var(--bga-color);
+    color: var(--a-color);
+    padding: 1.5rem;
     display: block;
-    border-radius: 5px;
-    font-size: 26px;
+    border-radius: 0.5rem;
     font-weight: bolder;
+    font-size: 2.5rem;
 }
 
 a:hover {
@@ -59,25 +91,38 @@ a:hover {
 }
 
 .developed-by {
+    color: var(--h2-p-color);
+    font-size: 1.2rem;
     display: contents;
 }
 
 .developed-by:hover {
-    color: #D39A89;
-    font-weight: bolder;
-    
+    color: var(--bga-color);  
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
-.container {
-    width: 320px;
-    text-align: center;
-    margin: 30px auto;
-    /* margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto; */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.topIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.darkLightMode {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.flags {
+    display: flex;
+    gap: 1.2rem;
 }
