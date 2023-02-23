@@ -87,7 +87,7 @@ a {
 }
 
 a:hover {
-    background-color: #9c7063;
+    filter: brightness(80%);
 }
 
 .developed-by {
@@ -97,7 +97,7 @@ a:hover {
 }
 
 .developed-by:hover {
-    color: var(--bga-color);  
+    color: var(--bga-color); 
 }
 
 footer {
