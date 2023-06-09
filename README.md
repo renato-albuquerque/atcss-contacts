@@ -1,4 +1,4 @@
-# Digital Business Card - "Ateliê Ana Teresa"
+# Digital Business Card - Atelier
 
 Freelance project developed for "Ateliê Ana Teresa". Purpose of grouping all the user's contacts. Project developed in Feb/2023.
 
